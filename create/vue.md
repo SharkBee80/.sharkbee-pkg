@@ -44,4 +44,6 @@ export default defineConfig({
 
 ```css
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/*@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));*/
 ```
