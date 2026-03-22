@@ -47,3 +47,33 @@ export default defineConfig({
 @custom-variant dark (&:where(.dark, .dark *));
 /*@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));*/
 ```
+
+## router
+
+ `router/index.ts`
+
+```ts
+import { createRouter, createWebHistory } from 'vue-router'
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/', redirect: '/home',
+    },
+    {
+      path: '/home', name:'home', component: '@/views/Home.vue',
+    },
+    {
+      path: '/set', name: 'set',
+      component: () => import('@/views/Set.vue'),
+    },
+    { 
+      path: '/:pathMatch(.*)*', name: 'NotFound', 
+      component: () => import('@/views/404.vue'), 
+    },
+  ],
+})
+
+export default router
+```
