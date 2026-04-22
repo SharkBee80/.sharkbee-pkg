@@ -4,7 +4,14 @@
 npm create vue@latest
 ```
 
-## 初始化 项目 
+```sh
+# npx degit <你的用户名>/<仓库名> <新项目名称>
+npx degit sharkbee80/vue-template vue-app
+# cd vue-app
+# npx npm-check-updates -u
+```
+
+## 初始化 项目
 
 ```bash
 cd "vue demo"
@@ -29,18 +36,16 @@ npm install vue-router@4
 npm install tailwindcss @tailwindcss/vite
 ```
 
- `vite.config.ts`
+`vite.config.ts`
 
 ```ts
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-})
+  plugins: [tailwindcss()],
+});
 ```
 
- `main.css`
+`main.css`
 
 ```css
 @import "tailwindcss";
@@ -50,30 +55,35 @@ export default defineConfig({
 
 ## router
 
- `router/index.ts`
+`router/index.ts`
 
 ```ts
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/', redirect: '/home',
+      path: "/",
+      redirect: "/home",
     },
     {
-      path: '/home', name:'home', component: '@/views/Home.vue',
+      path: "/home",
+      name: "home",
+      component: "@/views/Home.vue",
     },
     {
-      path: '/set', name: 'set',
-      component: () => import('@/views/Set.vue'),
+      path: "/set",
+      name: "set",
+      component: () => import("@/views/Set.vue"),
     },
-    { 
-      path: '/:pathMatch(.*)*', name: 'NotFound', 
-      component: () => import('@/views/404.vue'), 
+    {
+      path: "/:pathMatch(.*)*",
+      name: "NotFound",
+      component: () => import("@/views/404.vue"),
     },
   ],
-})
+});
 
-export default router
+export default router;
 ```
