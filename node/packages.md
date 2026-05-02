@@ -14,7 +14,7 @@
 | tailwindcss      | css         |
 | uuid             | <--         |
 | vue-web-terminal | <--         |
-|                  |             |
+| jose             | jwt         |
 |                  |             |
 
 ```json
