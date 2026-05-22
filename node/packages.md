@@ -2,20 +2,21 @@
 
 ## dependencies
 
-| 包               | 描述        |
-| :--------------- | :---------- |
-| axios            | web request |
-| crypto-js        | encrypt     |
-| dayjs            | time format |
-| hono             | framework   |
-| http-status      | StatusCode  |
-| lodash           | tools       |
-| lucide-static    | icons       |
-| tailwindcss      | css         |
-| uuid             | <--         |
-| vue-web-terminal | <--         |
-| jose             | jwt         |
-|                  |             |
+| 包               | 描述         |
+| :--------------- | :----------- |
+| axios            | web request  |
+| crypto-js        | encrypt      |
+| dayjs            | time format  |
+| hono             | framework    |
+| http-status      | StatusCode   |
+| lodash           | tools        |
+| lucide-static    | icons        |
+| tailwindcss      | css          |
+| uuid             | <--          |
+| vue-web-terminal | <--          |
+| jose             | jwt          |
+| nanoid           | random id    |
+| mime-types       | content-type |
 
 ```json
 
