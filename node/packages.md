@@ -17,6 +17,8 @@
 | jose             | jwt          |
 | nanoid           | random id    |
 | mime-types       | content-type |
+| drizzle-orm      | db           |
+| kysely kysely-d1 | db           |
 
 ```json
 
@@ -28,3 +30,5 @@
 | esbuild     | builder     |
 | npm-run-all | run-p       |
 | prettier    | code format |
+| tsup        | esbuild     |
+| drizzle-kit | db          |
