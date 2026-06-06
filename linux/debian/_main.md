@@ -4,6 +4,8 @@
 
 ## [other](other.md)
 
+## [更换桌面](xfce2kde.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
