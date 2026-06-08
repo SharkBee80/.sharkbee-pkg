@@ -139,3 +139,9 @@ stress --vm 1 --vm-bytes 16G --timeout 30s
 ```sh
 echo $XDG_SESSION_TYPE
 ```
+
+## 监控无线网络的终端可视化工具
+
+```sh
+sudo apt install wavemon
+```

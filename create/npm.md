@@ -32,3 +32,9 @@ pnpm set registry https://registry.npmmirror.com
 ```bash
 pnpm add -g pnpm to update
 ```
+
+## 切换版本
+
+```bash
+nvm use 24
+```
