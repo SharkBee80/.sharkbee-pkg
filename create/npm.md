@@ -38,3 +38,36 @@ pnpm add -g pnpm to update
 ```bash
 nvm use 24
 ```
+
+## 多包项目
+
+`root`
+
+```bash
+pnpm init
+```
+
+`package.json`
+
+```json
+{
+  "name": "root",
+  "private": true,
+  "workspaces": ["child1/*", "child2/*"]
+}
+```
+
+`pnpm-workspace.yaml`
+
+```yaml
+# for pnpm
+packages:
+  - "child1/package.json"
+  - "child2/package.json"
+```
+
+`child1` && `child2` && `...`
+
+```bash
+pnpm init
+```
