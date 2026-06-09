@@ -145,3 +145,11 @@ echo $XDG_SESSION_TYPE
 ```sh
 sudo apt install wavemon
 ```
+
+## Num Lock
+
+```sh
+sudo apt install numlockx
+sudo nano /etc/default/numlockx
+# NUMLOCK=auto => NUMLOCK=on
+```

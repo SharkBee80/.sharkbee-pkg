@@ -6,6 +6,8 @@
 
 ## [更换桌面](xfce2kde.md)
 
+## [开机动画](plymouth.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
