@@ -153,3 +153,15 @@ sudo apt install numlockx
 sudo nano /etc/default/numlockx
 # NUMLOCK=auto => NUMLOCK=on
 ```
+
+SDDM (KDE / LXQt)
+
+```sh
+# sudo nano /etc/sddm.conf
+sudo nano /etc/sddm.conf.d/kde_settings.conf
+```
+
+```ini
+[General]
+Numlock=on
+```
