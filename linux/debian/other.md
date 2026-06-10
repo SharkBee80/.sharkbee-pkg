@@ -165,3 +165,14 @@ sudo nano /etc/sddm.conf.d/kde_settings.conf
 [General]
 Numlock=on
 ```
+
+SDDM (wayland)
+
+```sh
+sudo nano /var/lib/sddm/.config/kcminputrc
+```
+
+```ini
+[Keyboard]
+NumLock=0
+```
