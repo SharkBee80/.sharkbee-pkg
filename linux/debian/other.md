@@ -176,3 +176,10 @@ sudo nano /var/lib/sddm/.config/kcminputrc
 [Keyboard]
 NumLock=0
 ```
+
+## 清理
+
+```sh
+# gui
+sudo apt install bleachbit
+```
