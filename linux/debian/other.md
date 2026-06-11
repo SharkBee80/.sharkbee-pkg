@@ -177,6 +177,10 @@ sudo nano /var/lib/sddm/.config/kcminputrc
 NumLock=0
 ```
 
+```sh
+chown -R sddm:sddm /var/lib/sddm/.config/kcminputrc
+```
+
 ## 清理
 
 ```sh
