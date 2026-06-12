@@ -71,3 +71,19 @@ packages:
 ```bash
 pnpm init
 ```
+
+## typescript使用绝对路径“@”
+
+```sh
+pnpm install -D tsx
+```
+
+```json
+// ~/.config/Code/User/settings.json
+{
+  "code-runner.executorMap": {
+    // "typescript": "ts-node"
+    "typescript": "cd $dir && npx tsx $fileName"
+  }
+}
+```
