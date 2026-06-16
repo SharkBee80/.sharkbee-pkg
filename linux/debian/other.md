@@ -57,7 +57,7 @@ sudo nano /etc/systemd/resolved.conf
 
 ```ini
 [Resolve]
-DNS=8.8.8.8 1.1.1.1
+DNS=8.8.8.8 223.5.5.5
 ```
 
 #### 重启并开机自启服务
@@ -71,6 +71,9 @@ sudo systemctl enable systemd-resolved
 
 ```sh
 cat /etc/resolv.conf
+resolvectl status
+dig google.com
+# dig @8.8.8.8 google.com
 ```
 
 ## 移动到工作区
