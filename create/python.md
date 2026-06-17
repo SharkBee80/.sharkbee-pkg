@@ -66,3 +66,20 @@ pip install stickytape
 ```sh
 stickytape main.py --output-file single_script.py
 ```
+
+## 导入父目录脚本
+
+将父目录动态添加到系统搜索路径 sys.path 中
+
+```python
+import os
+import sys
+# 获取当前脚本的绝对路径
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# 获取父目录的绝对路径
+parent_dir = os.path.dirname(current_dir)
+# 将父目录添加到 sys.path 的最前面（优先搜索）
+sys.path.insert(0, parent_dir)
+# 现在可以直接导入父目录中的脚本了
+import my_parent_script
+```
