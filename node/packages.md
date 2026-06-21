@@ -10,6 +10,8 @@
 | hono             | framework    |
 | http-status      | StatusCode   |
 | lodash           | tools        |
+| radash           | tools        |
+| es-toolkit       | tools        |
 | lucide-static    | icons        |
 | tailwindcss      | css          |
 | uuid             | <--          |
