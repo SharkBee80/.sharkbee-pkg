@@ -17,3 +17,7 @@ GRUB_TIMEOUT=10
 ```sh
 sudo update-grub
 ```
+
+## [自定义主题](https://github.com/Jacksaur/Gorgeous-GRUB)
+
+`/boot/grub/themes/`

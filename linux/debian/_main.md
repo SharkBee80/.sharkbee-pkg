@@ -8,6 +8,8 @@
 
 ## [开机动画](plymouth.md)
 
+## [Wayland与fcitx5的兼容性](fcitx5.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
