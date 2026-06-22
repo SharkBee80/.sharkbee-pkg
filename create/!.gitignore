@@ -1,6 +1,8 @@
 # default
 dist/
 test/
+.env*
+!.env.example
 
 # vscode
 
