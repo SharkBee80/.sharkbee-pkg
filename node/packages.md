@@ -21,6 +21,9 @@
 | mime-types       | content-type |
 | drizzle-orm      | db           |
 | kysely kysely-d1 | db           |
+| p-limit          | concurrency  |
+| ping             | ping         |
+| chalk            | color        |
 
 ```json
 
