@@ -24,6 +24,7 @@
 | p-limit          | concurrency  |
 | ping             | ping         |
 | chalk            | color        |
+| jsonc-parser     | json         |
 
 ```json
 
