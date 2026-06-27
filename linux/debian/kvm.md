@@ -83,4 +83,16 @@ sudo apt install -y ovmf virt-viewer
    6. 显示驱动：virtio
    7. VirtIO 磁盘
 
+### 剪贴板
+
+1. 宿主机
+   添加硬件-> 通道-> org.spice-space.blood.0
+2. 虚拟机
+
+```bash
+sudo apt install spice-vdagent qemu-guest-agent
+sudo systemctl enable --now spice-vdagent
+sudo systemctl enable --now qemu-guest-agent
+```
+
 ## [Windows 安装参考](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers)
