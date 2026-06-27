@@ -1,5 +1,11 @@
 # 其他
 
+## 配置语言环境 locale
+
+```sh
+sudo dpkg-reconfigure locales
+```
+
 ## 将 Linux 家目录（如“文档”、“下载”）设置为英文，最快的方法是在终端临时将系统语言更改为英文，然后更新目录名称
 
 ```sh

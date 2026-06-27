@@ -10,6 +10,10 @@
 
 ## [Wayland与fcitx5的兼容性](fcitx5.md)
 
+## [virtualBox](virtualBox.md)
+
+## [kvm](kvm.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
