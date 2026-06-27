@@ -36,10 +36,6 @@ deb http://mirrors.ustc.edu.cn/debian trixie-updates main contrib non-free non-f
 # backports 软件源，请按需启用
 deb http://mirrors.ustc.edu.cn/debian trixie-backports main contrib non-free non-free-firmware
 deb-src http://mirrors.ustc.edu.cn/debian trixie-backports main contrib non-free non-free-firmware
-
-# 以下安全更新软件源为官方源配置
-deb https://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
-# deb-src https://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
 EOF
 
 # 3. 刷新软件源缓存
