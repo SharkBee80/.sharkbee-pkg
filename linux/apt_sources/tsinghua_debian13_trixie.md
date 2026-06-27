@@ -9,7 +9,13 @@ curl -fsSL https://raw.githubusercontent.com/SharkBee80/.sharkbee-pkg/refs/heads
 or
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/SharkBee80/.sharkbee-pkg/refs/heads/main/linux/apt_sources/tsinghua_debian13_trixie.sh | bash
+wget -qO- https://raw.githubusercontent.com/SharkBee80/.sharkbee-pkg/refs/heads/main/linux/apt_sources/tsinghua_debian13_trixie.sh | bash
+```
+
+or
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/SharkBee80/.sharkbee-pkg/refs/heads/main/linux/apt_sources/tsinghua_debian13_trixie.sh)
 ```
 
 ## 运行
