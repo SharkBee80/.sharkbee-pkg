@@ -20,7 +20,7 @@ sudo whoami
 ## 安装常用基础工具
 
 ```sh
-apt install curl wget git net-tools btop ufw fail2ban
+apt install curl wget git net-tools btop ufw fail2ban sudo
 ```
 
 ```sh

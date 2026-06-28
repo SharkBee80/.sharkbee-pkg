@@ -85,6 +85,8 @@ sudo apt install -y ovmf virt-viewer
 
 ### 剪贴板
 
+[spice-space](https://www.spice-space.org/)
+
 1. 宿主机
    添加硬件-> 通道-> org.spice-space.blood.0
 2. 虚拟机
@@ -94,5 +96,21 @@ sudo apt install spice-vdagent qemu-guest-agent
 sudo systemctl enable --now spice-vdagent
 sudo systemctl enable --now qemu-guest-agent
 ```
+
+### 扩容
+
+#### 磁盘扩容
+
+1. qemu-img
+
+```bash
+sudo qemu-img info ??/??.qcow2
+sudo qemu-img resize ??/??.qcow2 +32G
+```
+
+#### 虚拟机扩容
+
+1. LVM
+2. GParted
 
 ## [Windows 安装参考](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers)
