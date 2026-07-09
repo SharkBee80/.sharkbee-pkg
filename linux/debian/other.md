@@ -196,3 +196,11 @@ chown -R sddm:sddm /var/lib/sddm/.config/kcminputrc
 # gui
 sudo apt install bleachbit
 ```
+
+## 音频
+
+`调音大师`
+
+```bash
+sudo apt install easyeffects
+```
