@@ -204,3 +204,9 @@ sudo apt install bleachbit
 ```bash
 sudo apt install easyeffects
 ```
+
+## 卸载或重新安装桌面环境
+
+```bash
+sudo tasksel
+```

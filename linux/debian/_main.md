@@ -14,6 +14,8 @@
 
 ## [kvm](kvm.md)
 
+## [图像桌面开关](switch.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
