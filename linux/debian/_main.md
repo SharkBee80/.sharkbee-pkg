@@ -16,6 +16,8 @@
 
 ## [图像桌面开关](switch.md)
 
+## [命令行模式启动项](boot.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
