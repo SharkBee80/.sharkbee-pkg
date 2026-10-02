@@ -31,12 +31,15 @@ pnpm set registry https://registry.npmmirror.com
 
 ```bash
 pnpm add -g pnpm to update
+pnpm self-update
+corepack install -g pnpm
 ```
 
 ## 切换版本
 
 ```bash
 nvm use 24
+nvm install-latest-npm
 ```
 
 ## 多包项目
