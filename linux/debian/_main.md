@@ -18,6 +18,8 @@
 
 ## [命令行模式启动项](boot.md)
 
+## [守护进程](systemd.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
