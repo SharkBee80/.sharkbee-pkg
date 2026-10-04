@@ -210,3 +210,10 @@ sudo apt install easyeffects
 ```bash
 sudo tasksel
 ```
+
+## 亮度控制
+
+```bash
+sudo apt install brightnessctl
+# sudo apt install light
+```
