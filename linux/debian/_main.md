@@ -20,6 +20,8 @@
 
 ## [守护进程](systemd.md)
 
+## [虚拟屏幕](virtual_screen.md)
+
 ## VPS
 
 0. [VPS使用指南](https://vpsknow.com/guides)
